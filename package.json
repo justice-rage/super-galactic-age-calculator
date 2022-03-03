@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/justicepelteir/dummy-environment/issues"
   },
-  "homepage": "https://github.com/justicepelteir/dummy-environment#readme"
+  "homepage": "https://github.com/justicepelteir/dummy-environment#readme",
+  "devDependencies": {
+    "webpack": "4.39.3"
+  }
 }
