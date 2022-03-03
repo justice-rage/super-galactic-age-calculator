@@ -1,9 +1,18 @@
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
+import Triangle from './triangle.js';
 
-<head>
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.min.js"
-  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  crossorigin="anonymous"></script>
-  <title>Shape Tracker</title>
-</head>
+$(document).ready(function() {
+  $('#triangle-checker-form').submit(function(event) {
+    event.preventDefault();
+    debugger;
+    const length1 = $('#length1').val();
+    const length2 = $('#length2').val();
+    const length3 = $('#length3').val();
+    const triangle = new Triangle(length1, length2, length3);
+    const response = triangle.checkType();
+    $('#response').append("<p>" + response + "</p>");
+  });
+});
