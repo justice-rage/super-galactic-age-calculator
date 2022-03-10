@@ -20,7 +20,7 @@ export default class SolarAge {
     this.earthExtraYears = (Math.sign(this.earthDeathClock) === -1) ? Math.abs(this.earthDeathClock) : this.earthDeathClock;
     this.mercuryExtraYears = (Math.sign(this.mercuryDeathClock) === -1) ? Math.abs(this.mercuryDeathClock) : this.mercuryDeathClock;
     this.venusExtraYears = (Math.sign(this.venusDeathClock) === -1) ? Math.abs(this.venusDeathClock) : this.venusDeathClock;
-    // this.marsExtraYears = (Math.sign(this.marsDeathClock) === -1) ? Math.abs(this.marsDeathClock) : this.marsDeathClock;
+    this.marsExtraYears = (Math.sign(this.marsDeathClock) === -1) ? Math.abs(this.marsDeathClock) : this.marsDeathClock;
     // this.jupiterExtraYears = (Math.sign(this.jupiterDeathClock) === -1) ? Math.abs(this.jupiterDeathClock) : this.jupiterDeathClock;
 
 
