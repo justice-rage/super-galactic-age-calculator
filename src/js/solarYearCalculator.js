@@ -17,4 +17,11 @@ export default class SolarAge {
     this.marsDeathClock = (this.earthAverageLifeSpan * 1.88) - (this.earth * 1.88);
     this.jupiterDeathClock = (this.earthAverageLifeSpan * 11.86) - (this.earth * 11.86);
   }
+
+  eternalYears () {
+    // if (Math.sign(this.earthDeathClock) === -1) {
+      // const earthBonusYears = Math.abs(this.earthDeathClock);
+      // return earthBonusYears;
+    // }
+  }
 }
