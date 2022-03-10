@@ -1,5 +1,5 @@
 {
-  "name": "dummy-environment",
+  "name": "super-galactic-age-calculator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justicepelteir/dummy-environment.git"
+    "url": "git+https://github.com/justicepelteir/super-galactic-age-calculator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/justicepelteir/dummy-environment/issues"
+    "url": "https://github.com/justicepelteir/super-galactic-age-calculator/issues"
   },
-  "homepage": "https://github.com/justicepelteir/dummy-environment#readme",
+  "homepage": "https://github.com/justicepelteir/super-galactic-age-calculator#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
