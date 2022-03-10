@@ -14,7 +14,7 @@ describe('SolarAge', () => {
 
 describe('deathClock', () => {
 
-  test('should succesfully create a yearsLeft object with marsExtraYears equating close to 1.88', () => {
+  test('should succesfully create a yearsLeft object with jupiterExtraYears equating close to 11.86', () => {
     const yearsLeft = new SolarAge(74);
     yearsLeft.deathClock();
     expect(yearsLeft.earthAverageLifeSpan).toEqual(73);
@@ -28,7 +28,7 @@ describe('deathClock', () => {
     expect(yearsLeft.mercuryExtraYears).toBeCloseTo(.24);
     expect(yearsLeft.venusExtraYears).toBeCloseTo(.62);
     expect(yearsLeft.marsExtraYears).toBeCloseTo(1.88);
-    // expect(yearsLeft.jupiterExtraYears).toBeCloseTo(11.86);
+    expect(yearsLeft.jupiterExtraYears).toBeCloseTo(11.86);
   });
 });
 
