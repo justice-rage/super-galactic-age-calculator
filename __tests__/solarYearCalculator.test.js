@@ -14,13 +14,13 @@ describe('SolarAge', () => {
 
 describe('deathClock', () => {
 
-  test('should succesfully create a yearsLeft object with mercuryDeathClock equating to 0', () => {
+  test('should succesfully create a yearsLeft object with venusDeathClock equating to 0', () => {
     const yearsLeft = new SolarAge(73);
     yearsLeft.deathClock();
     expect(yearsLeft.earthAverageLifeSpan).toEqual(73);
     expect(yearsLeft.earthDeathClock).toEqual(0);
     expect(yearsLeft.mercuryDeathClock).toEqual(0);
-    // expect(yearsLeft.venusDeathClock).toEqual(0);
+    expect(yearsLeft.venusDeathClock).toEqual(0);
     // expect(yearsLeft.marsDeathClock).toEqual(0);
     // expect(yearsLeft.jupiterDeathClock).toEqual(0);
   });
