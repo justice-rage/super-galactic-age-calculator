@@ -11,5 +11,6 @@ export default class SolarAge {
 
   deathClock () {
     this.earthAverageLifeSpan = 73;
+    this.earthDeathClock = this.earth - 73;
   }
 }
