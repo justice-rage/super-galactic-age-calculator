@@ -22,18 +22,5 @@ export default class SolarAge {
     this.venusExtraYears = (Math.sign(this.venusDeathClock) === -1) ? Math.abs(this.venusDeathClock) : this.venusDeathClock;
     this.marsExtraYears = (Math.sign(this.marsDeathClock) === -1) ? Math.abs(this.marsDeathClock) : this.marsDeathClock;
     this.jupiterExtraYears = (Math.sign(this.jupiterDeathClock) === -1) ? Math.abs(this.jupiterDeathClock) : this.jupiterDeathClock;
-
-
-    // this.earthExtraYears = this.earthDeathClock > 0 ? Math.abs(this.earthDeathClock) : this.earthDeathClock;
   }
-
-  // eternalYears () {
-    // this.earthExtraYears = this.earthDeathClock > 0 ? Math.abs(this.earthDeathClock) : this.earthDeathClock;
-  //   // this.earthExtraYears = (Math.sign(this.earthDeathClock) === -1) ? 
-  //   // Math.abs(this.earthDeathClock) : this.earthDeathClock;
-  //   // if (Math.sign(this.earthDeathClock) === -1) {
-  //   //   const earthBonusYears = Math.abs(this.earthDeathClock);
-  //   //   return earthBonusYears;
-  //   // }
-  // }
 }
