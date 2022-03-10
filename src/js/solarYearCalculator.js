@@ -12,5 +12,9 @@ export default class SolarAge {
   deathClock () {
     this.earthAverageLifeSpan = 73;
     this.earthDeathClock = this.earth - 73;
+    this.mercuryDeathClock = (this.earth * .24) - (73 * .24);
+    // this.venusDeathClock = this.earth - 73;
+    // this.marsDeathClock = this.earth - 73;
+    // this.jupiterDeathClock = this.earth - 73;
   }
 }
