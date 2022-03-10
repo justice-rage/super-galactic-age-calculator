@@ -1,4 +1,4 @@
-import Triangle from './../src/js/nameOfFileToBeTested.js';
+import Triangle from 'src/js/nameOfFileToBeTested.js';
 
 describe('Triangle', () => {
 
