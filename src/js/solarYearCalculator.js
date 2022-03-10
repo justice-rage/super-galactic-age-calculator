@@ -8,4 +8,8 @@ export default class SolarAge {
     this.mars = this.earth * 1.88;
     this.jupiter = this.earth * 11.86;
   }
+
+  deathClock () {
+    // this.earthAverageLifeSpan = 73;
+  }
 }
