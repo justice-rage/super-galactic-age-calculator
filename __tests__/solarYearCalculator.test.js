@@ -11,3 +11,17 @@ describe('SolarAge', () => {
     expect(age.jupiter).toEqual(11.86);
   });
 });
+
+describe('deathClock', () => {
+
+  test('should succesfully create an empty yearsLeft object', () => {
+    const yearsLeft = new SolarAge();
+    // yearsLeft.deathClock();
+    // expect(age.earthAverageLifeSpan).toEqual(73);
+    // expect(age.yearsLeftToLive.earthDeathClock).toEqual();
+    // expect(age.yearsLeftToLive.mercuryDeathClock).toEqual(0);
+    // expect(age.yearsLeftToLive.venusDeathClock).toEqual(0);
+    // expect(age.yearsLeftToLive.marsDeathClock).toEqual(0);
+    // expect(age.yearsLeftToLive.jupiterDeathClock).toEqual(0);
+  });
+});
