@@ -14,29 +14,27 @@ describe('SolarAge', () => {
 
 describe('deathClock', () => {
 
-  test('should succesfully create a yearsLeft object with jupiterExtraYears equating close to 11.86', () => {
-    const yearsLeft = new SolarAge(74);
+  test('should succesfully create a yearsLeft object with jupiterDeathClock equating to 0', () => {
+    const yearsLeft = new SolarAge(73);
     yearsLeft.deathClock();
     expect(yearsLeft.earthAverageLifeSpan).toEqual(73);
-    expect(yearsLeft.earthDeathClock).toEqual(-1);
-    expect(yearsLeft.mercuryDeathClock).toEqual(-0.23999999999999844);
-    expect(yearsLeft.venusDeathClock).toEqual(-0.6200000000000045);
-    expect(yearsLeft.marsDeathClock).toEqual(-1.8800000000000239);
-    expect(yearsLeft.jupiterDeathClock).toEqual(-11.860000000000014);
-
-    expect(yearsLeft.earthExtraYears).toBeCloseTo(1);
-    expect(yearsLeft.mercuryExtraYears).toBeCloseTo(.24);
-    expect(yearsLeft.venusExtraYears).toBeCloseTo(.62);
-    expect(yearsLeft.marsExtraYears).toBeCloseTo(1.88);
-    expect(yearsLeft.jupiterExtraYears).toBeCloseTo(11.86);
+    expect(yearsLeft.earthDeathClock).toEqual(0);
+    expect(yearsLeft.mercuryDeathClock).toEqual(0);
+    expect(yearsLeft.venusDeathClock).toEqual(0);
+    expect(yearsLeft.marsDeathClock).toEqual(0);
+    expect(yearsLeft.jupiterDeathClock).toEqual(0);
   });
 });
 
-// describe('eternalYears', () => {
+describe('deathClock', () => {
 
-//   test('should succesfully create a bonusYears object returning 1', () => {
-//     const bonusYears = new SolarAge(74);
-//     bonusYears.eternalYears();
-//     expect(bonusYears.earthExtraYears).toEqual(1);
-//   });
-// });
+  test('should succesfully create a yearsLeft object with jupiterExtraYears equating close to 11.86', () => {
+    const bonusYears = new SolarAge(74);
+    bonusYears.deathClock();
+    expect(bonusYears.earthExtraYears).toBeCloseTo(1);
+    expect(bonusYears.mercuryExtraYears).toBeCloseTo(.24);
+    expect(bonusYears.venusExtraYears).toBeCloseTo(.62);
+    expect(bonusYears.marsExtraYears).toBeCloseTo(1.88);
+    expect(bonusYears.jupiterExtraYears).toBeCloseTo(11.86);
+  });
+});
