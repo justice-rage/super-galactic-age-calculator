@@ -5,5 +5,6 @@ export default class SolarAge {
     this.earth = 1;
     this.mercury = this.earth * .24;
     this.venus = this.earth * .62;
+    this.mars = this.earth * 1.88;
   }
 }
