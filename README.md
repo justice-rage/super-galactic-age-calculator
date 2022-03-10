@@ -25,4 +25,4 @@
 
 ## License
 
-Copyright (MIT License)[https://opensource.org/licenses/MIT] _03/10/2022_ _Justice Douglas_
+Copyright [MIT License](https://opensource.org/licenses/MIT) _03/10/2022_ _Justice Douglas_
