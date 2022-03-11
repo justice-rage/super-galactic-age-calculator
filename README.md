@@ -4,7 +4,7 @@
 
 ## Description
 
-#### _A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. This application determines a user's age based on the following planet's solar years:_
+#### _A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. Utilizing Jest for TDD, this application determines a user's age based on the following planet's solar years:_
 
 * _Earth_
 * _Mercury_
