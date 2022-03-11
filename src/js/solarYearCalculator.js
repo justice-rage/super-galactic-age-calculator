@@ -17,10 +17,10 @@ export default class SolarAge {
     this.marsDeathClock = (this.earthAverageLifeSpan * 1.88) - (this.earth * 1.88);
     this.jupiterDeathClock = (this.earthAverageLifeSpan * 11.86) - (this.earth * 11.86);
 
-    this.earthExtraYears = (Math.sign(this.earthDeathClock) === -1) ? Math.abs(this.earthDeathClock) : this.earthDeathClock;
-    this.mercuryExtraYears = (Math.sign(this.mercuryDeathClock) === -1) ? Math.abs(this.mercuryDeathClock) : this.mercuryDeathClock;
-    this.venusExtraYears = (Math.sign(this.venusDeathClock) === -1) ? Math.abs(this.venusDeathClock) : this.venusDeathClock;
-    this.marsExtraYears = (Math.sign(this.marsDeathClock) === -1) ? Math.abs(this.marsDeathClock) : this.marsDeathClock;
-    this.jupiterExtraYears = (Math.sign(this.jupiterDeathClock) === -1) ? Math.abs(this.jupiterDeathClock) : this.jupiterDeathClock;
+    this.earthExtraYears = (Math.sign(this.earthDeathClock) === -1) ? Math.abs(this.earthDeathClock) : 0;
+    this.mercuryExtraYears = (Math.sign(this.mercuryDeathClock) === -1) ? Math.abs(this.mercuryDeathClock) : 0;
+    this.venusExtraYears = (Math.sign(this.venusDeathClock) === -1) ? Math.abs(this.venusDeathClock) : 0;
+    this.marsExtraYears = (Math.sign(this.marsDeathClock) === -1) ? Math.abs(this.marsDeathClock) : 0;
+    this.jupiterExtraYears = (Math.sign(this.jupiterDeathClock) === -1) ? Math.abs(this.jupiterDeathClock) : 0;
   }
 }
