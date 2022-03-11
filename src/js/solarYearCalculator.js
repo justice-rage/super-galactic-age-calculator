@@ -1,8 +1,8 @@
 'use strict';
 
 export default class SolarAge {
-  constructor (earth) {
-    this.earth = earth;
+  constructor (earthCentricAge) {
+    this.earth = earthCentricAge;
     this.mercury = this.earth * .24;
     this.venus = this.earth * .62;
     this.mars = this.earth * 1.88;
